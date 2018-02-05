@@ -1,0 +1,58 @@
+{{ partial "header.html" . }}
+<h1>{{ .Title }}</h1>
+<section>{{ .Content }}</section>
+{{ range .Pages }}
+
+<h3>{{ .Title }}</h3>
+<div> {{ .Content }}</div>
+{{ end }}
+
+<div class="container">
+  <div class="row">
+      <div class="col-xs-12">
+          <h1>Om</h1>
+      </div>
+  </div>
+
+  <section class="row"><p>Kontakt mig for at høre mere om design systemet.</p>
+</section>
+
+  <section class="row">
+
+    <div class="container">
+        <div id="formfeedback" class="hidden">Vi vender tilbage snarest!</div>
+          <form action="" method="post" id="kontaktmig">
+				 
+<!--				required-->
+              <label for="Navn">Navn</label>
+              <input type="text" id="navn" name="navn" placeholder="Dit navn" required>
+
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="Din e-mail" required>
+
+              <label for="henvendelse">Jeg henvender mig vedr.:</label>
+              <select id="henvendelse" name="henvendelse">
+                <option value="support">Support</option>
+                <option value="tilbud">Tilbud</option>
+                <option value="prepurchase">Spørgsmål før køb</option>
+              </select>
+
+              <label for="besked">Besked</label>
+              <textarea id="besked" name="besked" placeholder="Din besked.."></textarea>
+
+              <input type="submit" name="submit" value="Submit">
+              
+              <div id="formfailure" class="hidden"></div>
+          </form>
+
+      </div>
+
+	</div>
+
+
+
+    
+  </section>
+
+</div>
+{{ partial "footer.html" . }}
