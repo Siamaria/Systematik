@@ -9,14 +9,14 @@ theme = "systematik"
     weight = 1
     identifier = "home"
     url = "/"
-	 
+
 [[menu.main]]
     name = "Dokumentation"
     title = "dokumentation section"
     weight = 2
     identifier = "dokumentation"
     url = "/dokumentation/"
-	 
+
 [[menu.main]]
     name = "Om"
     title = "om section"
