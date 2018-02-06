@@ -1,4 +1,3 @@
-// JavaScript Document
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
@@ -6,18 +5,6 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
-//Formular
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-
-//Lightbox
- $('a').nivoLightbox();
-
 
 /*Ajax contact form*/
 $("#kontaktmig").submit(function(event) {

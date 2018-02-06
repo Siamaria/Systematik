@@ -55,6 +55,18 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+.btns {
+	 background-color: thistle;
+	 padding: 0.5rem;
+}
+a {
+	text-decoration: none;
+	color: crimson;
+}
+/*Farver*/
+.color1 {
+	background-color: #f5eb22; /*yellow*/
+}
 /*Typografi*/
 
 html {
@@ -99,6 +111,16 @@ h4 {
 
 small, .font_small {font-size: 0.707em;}
 
+/*Media queries til tablet  - 768px v 16px font*/
+@media only screen and (min-width: 48em) {
+    html {
+    font-size: calc(0.80em + 1.2vw);
+    }
+    .container {
+        width: 92%;
+    }
+}
+/*Media queries til mindre computere  - 1024px v 16px font*/
 @media only screen and (min-width: 64em) {
     html {
     font-size: calc(0.9em + 1.2vw);
@@ -107,6 +129,7 @@ small, .font_small {font-size: 0.707em;}
         width: 88%;
     }
 }
+/*Media queries til laptop/desktop  - 1200px v 16px font*/
 @media only screen and (min-width: 75em) {
     html {
     font-size: calc(1em + 1.3vw);
