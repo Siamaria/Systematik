@@ -53,8 +53,9 @@ span {
 /*Knapper*/
 .btns {
   background-color: thistle;
-  padding: 0.5rem;
-  border-radius: 5px; }
+  padding: 0.2em 0.4rem;
+  border-radius: 5px;
+  margin-left: 110px; }
 
 a {
   text-decoration: none;
@@ -65,6 +66,13 @@ a {
   background-color: #f5eb22;
   /*yellow*/ }
 
+/*Billeder*/
+img {
+  width: 380px;
+  height: auto;
+  background-size: 10%;
+  margin-right: 0px; }
+
 /*Typografi*/
 html {
   font-size: calc(0.75em + 1vw);
@@ -72,8 +80,11 @@ html {
 
 p {
   margin-bottom: 1.3em;
-  font-size: 0.7em;
+  font-size: 1em;
   padding-left: 20px; }
+
+.kontakt {
+  padding-left: 5px; }
 
 h1, h2, h3, h4 {
   margin: 0.5em 0 0.5em;
@@ -81,9 +92,16 @@ h1, h2, h3, h4 {
   line-height: 1.2; }
 
 h1 {
-  margin-top: 0.6em;
+  margin-top: 0em;
   font-size: 2.998em;
-  color: cornflowerblue; }
+  color: cornflowerblue;
+  padding-left: 110px; }
+
+.title {
+  padding-left: 15px; }
+
+.om {
+  padding-left: 150px; }
 
 h2 {
   font-size: 2.5em;
@@ -92,6 +110,9 @@ h2 {
 
 h3 {
   font-size: 1.999em;
+  padding-left: 0px; }
+
+.overskrift {
   padding-left: 20px; }
 
 h4 {
@@ -120,7 +141,34 @@ small, .font_small {
     font-size: calc(1em + 1.3vw); }
 
   .container {
-    width: 84%; } }
+    width: 84%; }
+
+  img {
+    width: 40vw;
+    height: auto;
+    background-size: 100%;
+    margin-left: 20px; }
+
+  .btns {
+    background-color: thistle;
+    padding: 0.2em 0.4rem;
+    border-radius: 5px;
+    margin-left: 200px; }
+
+  h1 {
+    padding-left: 200px; }
+
+  .om {
+    padding-left: 250px; }
+
+  h3 {
+    padding-left: 20px; }
+
+  p {
+    font-size: 0.6em; }
+
+  .kontakt {
+    padding-left: 30px; } }
 /*Formular*/
 input[type=text],
 input[type=email],
@@ -162,5 +210,7 @@ input[type=submit]:hover {
 #formfailure {
   background-color: red;
   padding: 1em; }
+
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

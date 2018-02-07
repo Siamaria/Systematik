@@ -1,12 +1,13 @@
 {{ partial "header.html" . }}
+Det er en list
 <div class="container">
     <div class="row">
         <div class="col-xs-12">
-          <h1>{{ .Title }}</h1>
+          <h1 class="title">{{ .Title }}</h1>
 <section>{{ .Content }}</section>
 {{ range .Pages }}
 
-<h3>{{ .Title }}</h3>
+<h3 class="overskrift">{{ .Title }}</h3>
 <div> {{ .Content }}</div>
 {{ end }}
 </div>
