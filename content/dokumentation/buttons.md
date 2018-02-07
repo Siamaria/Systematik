@@ -9,4 +9,4 @@ I dette framework kan du lave knapper ved at tilføje classen Buttons
 
 Resultatet giver en knap som følgende:
 
-<a href="" class="btns">Knaptekst</a>
+<a href="" class="lille-knap btns">Knaptekst</a>
