@@ -3,7 +3,7 @@ title: "Farver"
 date: 2018-02-01T08:53:22+01:00
 
 ---
-I dette framework kan du se hvilke farver jeg har anvendt
+I dette framework kan du se hvilke farver jeg har anvendt.
 
 <div class="colors">
           <div class="color1"></div>
@@ -16,4 +16,4 @@ I dette framework kan du se hvilke farver jeg har anvendt
           <div class="color8"></div>
         </div>
 
-![descr] (../img/minions.jpg)
+![farver] (../img/farver-mobil.jpg)
