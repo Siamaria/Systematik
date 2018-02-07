@@ -63,14 +63,17 @@ span {
 }
 /*Knapper*/
 .btns {
-	 background-color: thistle;
-	 padding: 0.2em 0.4rem;
+	 background-color: #4CAF50;
+	 padding: 0.4em 0.6rem;
 	 border-radius: 5px;
 	 margin-left: 110px;
 }
+.btns:hover {
+	background-color: #45a049;
+}
 a {
 	text-decoration: none;
-	color: crimson;
+	color: white;
 }
 /*Farver*/
 .color1 {
@@ -80,8 +83,6 @@ a {
 img {
 	width: 380px;
 	height: auto;
-	background-size: 10%;
-	margin-right: 0px;
 }
 /*Typografi*/
 
@@ -89,29 +90,27 @@ html {
 	font-size: calc(0.75em + 1vw);
 	/*font-size: 1.425em;*/
 }
-
 p {
 	margin-bottom: 1.3em;
 	font-size: 1em;
 	/*padding-left: 20px;*/
 }
 .kontakt {
-	padding-left: 5px;
+	padding-left: 15px;
 }
 h1, h2, h3, h4 {
   margin: 0.5em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
 }
-
 h1 {
 	margin-top: 0em;
 	font-size: 2.998em;
 	color: cornflowerblue;
-	padding-left: 110px;
+	padding-left: 0px;
 }
-.title {
-	padding-left: 15px;
+.home {
+	padding-left: 110px;
 }
 .om {
 	padding-left: 150px;
@@ -119,75 +118,106 @@ h1 {
 h2 {
 	font-size: 2.5em;
 	color: crimson;
-	padding-left: 50px;
 }
-
 h3 {
 	font-size: 1.999em;
-	padding-left: 0px;
-}
-.overskrift {
-	padding-left: 20px;
 }
 h4 {
 	font-size: 1.414em;
 }
-
-small, .font_small {font-size: 0.707em;}
+small, .font_small {
+	font-size: 0.707em;
+}
 
 /*Media queries til tablet  - 768px v 16px font*/
 @media only screen and (min-width: 48em) {
     html {
-    font-size: calc(0.80em + 1.2vw);
+    	font-size: calc(0.80em + 1.2vw);
     }
     .container {
-        width: 92%;
-    }
-}
-/*Media queries til mindre computere  - 1024px v 16px font*/
-@media only screen and (min-width: 64em) {
-    html {
-    font-size: calc(0.9em + 1.2vw);
-    }
-    .container {
-        width: 88%;
-    }
-}
-/*Media queries til laptop/desktop  - 1200px v 16px font*/
-@media only screen and (min-width: 75em) {
-    html {
-    font-size: calc(1em + 1.3vw);
-    }
-    .container {
-        width: 84%;
+      width: 92%;
     }
 		img {
 			width: 100%;
 			height: auto;
 		}
 		.btns {
-			 background-color: thistle;
-			 padding: 0.2em 0.4rem;
-			 border-radius: 5px;
+			 margin-left: 240px;
+		}
+		.home {
+			padding-left: 250px;
+		}
+		.dokumentation {
+			margin-left: 90px;
+		}
+		.lille-knap {
+			margin-left: 270px;
+		}
+		.om {
+    	padding-left: 300px;
+		}
+}
+/*Media queries til mindre computere  - 1024px v 16px font*/
+@media only screen and (min-width: 64em) {
+    html {
+    	font-size: calc(0.9em + 1.2vw);
+    }
+    .container {
+      width: 88%;
+    }
+		img {
+			width: 100%;
+			height: auto;
+		}
+		.btns {
+			 margin-left: 270px;
+		}
+		.home {
+			padding-left: 260px;
+		}
+		.dokumentation {
+			margin-left: 70px;
+		}
+		.om {
+    	padding-left: 310px;
+		}
+}
+/*Media queries til laptop/desktop  - 1200px v 16px font*/
+@media only screen and (min-width: 75em) {
+    html {
+    	font-size: calc(1em + 1.3vw);
+    }
+    .container {
+      width: 84%;
+			padding: 50px;
+    }
+		img {
+			width: 100%;
+			height: auto;
+		}
+		.btns {
 			 margin-left: 200px;
 		}
 		.lille-knap {
 			margin-left: 270px;
 		}
 		h1 {
-			padding-left: 200px;
+			font-size: 2.7em;
+		}
+		.home {
+			padding-left: 210px;
+		}
+		.dokumentation {
+			margin-left: 0px;
 		}
 		.om {
-    padding-left: 250px;
-		}
-		h3 {
-			padding-left: 20px;
+    	padding-left: 270px;
 		}
 		p {
 			font-size: 0.6em;
 		}
 		.kontakt {
-    padding-left: 30px;
+    	padding-left: 90px;
 		}
 }
 /*Formular*/
@@ -216,6 +246,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+	font-family: "Lora", sans-serif;
 }
 
 input[type=submit]:hover {
@@ -225,7 +256,7 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 30px;
   max-width: 800px;
   margin: 0 auto;
 }
