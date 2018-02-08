@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "systematik"
+publishDir = "docs"
 
 [[menu.main]]
     name = "Home"
@@ -23,3 +24,10 @@ theme = "systematik"
     weight = 3
     identifier = "om"
     url = "/om"
+
+[[menu.main]]
+    name = "Datavisualisering"
+    title = "datavisualisering section"
+    weight = 4
+    identifier = "datavisualisering"
+    url = "/datavisualisering/"

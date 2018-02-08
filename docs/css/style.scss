@@ -35,7 +35,6 @@ span {
     transition: 0.5s;
     padding-top: 60px;
 }
-
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -44,11 +43,9 @@ span {
     display: block;
     transition: 0.3s;
 }
-
 .sidenav a:hover {
     color: #f1f1f1;
 }
-
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -56,7 +53,6 @@ span {
     font-size: 36px;
     margin-left: 50px;
 }
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -75,14 +71,32 @@ a {
 	text-decoration: none;
 	color: white;
 }
-/*Farver*/
-.color1 {
-	background-color: #f5eb22; /*yellow*/
-}
 /*Billeder*/
 img {
 	width: 380px;
 	height: auto;
+	margin-bottom: 20px;
+}
+/*Datavisualisering*/
+.diagram_container{
+   margin-top: 0vw;
+   transform: rotate(90deg);
+}
+.column_and_name_container {
+   margin: 0;
+   padding: 0;
+}
+.column_and_name_container p{
+	margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.tekst-i-container{
+
+}
+.column_and_name_container svg{
+  display: inline-block;
+  transform: rotate(180deg);
 }
 /*Typografi*/
 
@@ -234,11 +248,9 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
-
 textarea {
   height: 200px;
 }
-
 input[type=submit] {
   background-color: #4CAF50;
   color: white;
@@ -248,11 +260,9 @@ input[type=submit] {
   cursor: pointer;
 	font-family: "Lora", sans-serif;
 }
-
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -260,14 +270,11 @@ input[type=submit]:hover {
   max-width: 800px;
   margin: 0 auto;
 }
-
 .hidden {
   display: none;
 }
-
 #formfailure {
   background-color: red;
   padding: 1em;
 }
-
 /*# sourceMappingURL=style.css.map */
