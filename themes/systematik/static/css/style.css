@@ -76,7 +76,7 @@ img {
   transform: rotate(90deg); }
 
 .column_and_name_container {
-  margin: -22px;
+  margin: 0;
   padding: 0; }
 
 .column_and_name_container p {
@@ -184,6 +184,10 @@ small, .font_small {
 @media only screen and (min-width: 75em) {
   html {
     font-size: calc(1em + 1.3vw); }
+
+  .column_and_name_container {
+    margin: -22px;
+    padding: 0; }
 
   .container {
     width: 84%;

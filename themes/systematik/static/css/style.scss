@@ -14,7 +14,6 @@ body {
 	color: $basecontrastcolor;
 	background-color: $basecolor;
 }
-
 /*Menu*/
 span {
 	margin-left: 20px;
@@ -82,18 +81,14 @@ img {
    margin-top: 0vw;
    transform: rotate(90deg);
 }
-//kunne ikke få det til at virke anderledes end at bruge -margin, for html calc for p tagget gik ind og lavede ekstra luft omkring.
 .column_and_name_container {
-   margin: -22px;
+   margin: 0;
    padding: 0;
 }
 .column_and_name_container p{
 	margin: 0;
   padding: 0;
   display: inline-block;
-}
-.tekst-i-container{
-
 }
 .column_and_name_container svg{
   display: inline-block;
@@ -143,7 +138,6 @@ h4 {
 small, .font_small {
 	font-size: 0.707em;
 }
-
 /*Media queries til tablet  - 768px v 16px font*/
 @media only screen and (min-width: 48em) {
     html {
@@ -202,6 +196,11 @@ small, .font_small {
     html {
     	font-size: calc(1em + 1.3vw);
     }
+		//kunne ikke få det til at virke anderledes end at bruge -margin, for html calc for p tagget gik ind og lavede ekstra luft omkring.
+		.column_and_name_container {
+		   margin: -22px;
+		   padding: 0;
+		}
     .container {
       width: 84%;
 			padding: 50px;
