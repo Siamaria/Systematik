@@ -76,7 +76,7 @@ img {
   transform: rotate(90deg); }
 
 .column_and_name_container {
-  margin: 0;
+  margin: -22px;
   padding: 0; }
 
 .column_and_name_container p {

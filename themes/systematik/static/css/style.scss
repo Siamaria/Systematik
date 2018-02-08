@@ -82,8 +82,9 @@ img {
    margin-top: 0vw;
    transform: rotate(90deg);
 }
+//kunne ikke få det til at virke anderledes end at bruge -margin, for html calc for p tagget gik ind og lavede ekstra luft omkring.
 .column_and_name_container {
-   margin: 0;
+   margin: -22px;
    padding: 0;
 }
 .column_and_name_container p{
