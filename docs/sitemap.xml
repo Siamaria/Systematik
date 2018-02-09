@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://systematik.siavonbulow.dk/datavisualisering/</loc>
+    <lastmod>2018-02-08T08:48:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://systematik.siavonbulow.dk/dokumentation/lightbox/</loc>
+    <lastmod>2018-02-06T15:32:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://systematik.siavonbulow.dk/</loc>
+    <lastmod>2018-02-01T09:02:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://systematik.siavonbulow.dk/dokumentation/typografi/</loc>
+    <lastmod>2018-02-01T08:53:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://systematik.siavonbulow.dk/dokumentation/farver/</loc>
+    <lastmod>2018-02-01T08:53:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://systematik.siavonbulow.dk/dokumentation/buttons/</loc>
+    <lastmod>2018-02-01T08:53:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://systematik.siavonbulow.dk/dokumentation/</loc>
+    <lastmod>2018-02-01T08:52:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://systematik.siavonbulow.dk/om/</loc>
+    <lastmod>2018-02-01T08:45:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://systematik.siavonbulow.dk/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://systematik.siavonbulow.dk/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
